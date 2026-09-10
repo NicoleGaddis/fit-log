@@ -1,8 +1,9 @@
 .card{
   padding: 1rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  background-color: lightcyan;
+  margin: 1rem;
+  border: 2px solid #ccc;
+  background-color: azure;
+  color: darkslategrey;
   
 }
 
@@ -13,4 +14,15 @@
 
 label{
   display: block;
+}
+
+input, select{
+  padding: .15rem;
+  background-color: #fff;
+  color: darkslategrey;
+}
+
+button{
+  background-color: #ccc;
+  color: darkslategrey;
 }
